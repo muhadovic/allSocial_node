@@ -1,0 +1,21 @@
+<%- include head.ejs %>
+
+<h2 style="font-family:Georgia,serif;font-size:30px;font-weight: normal;margin:0 0 20px">Your account is Banned</h2>
+
+<h4><%= reason %></h4>
+
+<% if (duration) { %>
+<p style="color:#e36e3a">You can access your account again <b><%= duration %></b></p>
+<% } %>
+
+<p>Please contact support if you have a problem with your account.</p>
+
+<a
+    href="mailto:support@allsocial.com"
+    class="btn"
+    style="background-color:#e36e3a;border-radius: 2px;-webkit-border-radius: 2px;color: #FFF;cursor: pointer;margin:15px 0 0;display: inline-block;text-align: center;text-decoration: none;padding:10px 16px;-webkit-transition: all .3s ease-in-out;transition: all .3s ease-in-out;"
+>
+    Contact Support
+</a>
+
+<%- include foot.ejs %>

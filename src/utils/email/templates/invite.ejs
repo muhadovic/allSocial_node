@@ -1,0 +1,19 @@
+<%- include head.ejs %>
+
+<h2 style="font-family:Georgia,serif;font-size:30px;font-weight: normal;margin:0 0 20px">
+    You have been invited to AllSocial!
+</h2>
+
+<img src="<%= inviterAvatar %>" style="margin: 32px auto; width: 150px; height: auto; display: block;" />
+
+<p style="text-align: center;">Your friend "<%= inviterName %>" has invited you to AllSocial</p>
+
+<a
+    href="<%= link %>"
+    class="btn"
+    style="display:block; background-color:#e36e3a;border-radius: 2px;-webkit-border-radius: 2px;color: #FFF;cursor: pointer;margin:15px 0 0;text-align: center;text-decoration: none;padding:10px 16px;-webkit-transition: all .3s ease-in-out;transition: all .3s ease-in-out; margin: 32px auto;width: 200px;"
+>
+    Join AllSocial
+</a>
+
+<%- include foot.ejs %>

@@ -1,0 +1,6 @@
+{
+    "name": "AllSocial API",
+    "description": "AllSocial API.",
+    "repository": "https://github.com/all-social/api",
+    "image": "heroku/nodejs"
+}
